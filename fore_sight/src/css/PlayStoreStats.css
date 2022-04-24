@@ -1,0 +1,207 @@
+.stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.stat{
+    display: flex;
+    margin: 30px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.stat:hover{
+    -webkit-box-shadow: 0 0 10px 2px #AAA;
+    -moz-box-shadow: 0 0 10px 2px #AAA;
+    box-shadow: 0px 0px 10px 2px #AAA;
+}
+
+.statLogo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.statText{
+    width: max-content;
+    height: 100%;
+}
+
+.statTitle{
+    color: #485cf4;
+    font-size: 28px;
+    line-height: 28px;
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-weight: 900;
+}
+
+.statDescription{
+    color : #485cf4;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    text-align: left;
+}
+
+@media (max-width : 1000px) {
+    .stats{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+    }
+    
+    .stat{
+        display: flex;
+        margin: 25px;
+        padding: 15px 30px;
+        border-radius: 20px;
+        justify-content: center;
+    }
+    
+    .stat:hover{
+        -webkit-box-shadow: 0 0 10px 2px #AAA;
+        -moz-box-shadow: 0 0 10px 2px #AAA;
+        box-shadow: 0px 0px 10px 2px #AAA;
+    }
+    
+    .statLogo{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    
+    .statText{
+        width: max-content;
+        height: 100%;
+    }
+    
+    .statTitle{
+        color: #485cf4;
+        font-size: 21px;
+        line-height: 21px;
+        padding: 0px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-weight: 900;
+    }
+    
+    .statDescription{
+        color : #485cf4;
+        font-size: 9px;
+        line-height: 9px;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+        text-align: left;
+    }
+}
+
+@media(max-width : 768px){
+    .stats{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    
+    .stat{
+        display: flex;
+        margin: 30px;
+        padding: 15px 30px;
+        border-radius: 20px;
+    }
+    
+    .stat:hover{
+        -webkit-box-shadow: 0 0 10px 2px #AAA;
+        -moz-box-shadow: 0 0 10px 2px #AAA;
+        box-shadow: 0px 0px 10px 2px #AAA;
+    }
+    
+    .statLogo{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .statText{
+        width: fit-content;
+        height: 100%;
+    }
+    
+    .statTitle{
+        color: #485cf4;
+        font-size: 28px;
+        line-height: 28px;
+        padding: 0px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-weight: 900;
+    }
+    
+    .statDescription{
+        color : #485cf4;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+        text-align: left;
+    }
+}
+
+@media(max-width : 486px){
+    .stats{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    
+    .stat{
+        display: flex;
+        margin: 10px;
+        padding: 15px 30px;
+        border-radius: 20px;
+    }
+    
+    .stat:hover{
+        -webkit-box-shadow: 0 0 10px 2px #AAA;
+        -moz-box-shadow: 0 0 10px 2px #AAA;
+        box-shadow: 0px 0px 10px 2px #AAA;
+    }
+    
+    .statLogo{
+        width: 30px;
+        height: 30px;
+        margin-right: 7px;
+    }
+    
+    .statText{
+        width: fit-content;
+        height: 100%;
+    }
+    
+    .statTitle{
+        color: #485cf4;
+        font-size: 21px;
+        line-height: 21px;
+        padding: 0px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-weight: 900;
+    }
+    
+    .statDescription{
+        color : #485cf4;
+        font-size: 9px;
+        line-height: 9px;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+        text-align: left;
+    }
+}

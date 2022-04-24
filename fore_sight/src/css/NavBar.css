@@ -1,0 +1,205 @@
+#foresightLogo{
+    width: 100px;
+    height: auto;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+#top-navigation{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#foresightLogoTitle{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 900;
+    line-height: auto;
+    line-height: 100px;
+    font-size: 25px;
+    
+}
+
+.mx-auto.d-sm-flex.d-block.flex-sm-nowrap {
+    text-align: center;
+}
+.btn-download{
+    color: white;
+    background: none;
+    border: solid 1px white;
+    border-radius: 20px;
+    font-size: large;
+}
+
+#nav-lnks{
+    width: max-content;
+    color: white;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-underline-offset: 5px;
+    text-decoration: none;
+}
+
+#nav-lnks:active{
+    text-decoration: none;
+}
+
+.active{
+    text-decoration: none;
+    text-decoration: underline;
+    text-underline-position: below;
+    background: none;
+}
+
+#nav-lnks:hover{
+    text-decoration: none;
+    transform: scale(1.15);
+    box-shadow: none;
+    background: none;
+}
+
+@media (min-width:768px) and (max-width:982px) {
+    
+    #foresightLogo{
+        width: 100px;
+    }
+
+    #top-navigation{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: min-content;
+    }
+
+    #foresightLogoTitle{
+        font-size: 22px;
+    }
+    
+    .btn-download{
+        color: white;
+        background: none;
+        border: solid 1px white;
+        border-radius: 20px;
+        font-size: small;
+    }
+    
+    #nav-lnks{
+        width: max-content;
+        color: white;
+        font-size: small;
+        padding: 15px 3px;
+    }
+    
+    .active{
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+    #toggle-btn{
+        color: white;
+        display: none;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width:769px){
+
+    #foresightLogo{
+        width: 80px;
+        margin:0px;
+        padding: 0px;
+        display: block;
+        margin-right: auto;
+    }
+    #top-navigation{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    #foresightLogoTitle{
+        font-size: 20px;
+        line-height: 80px;
+    }
+    .btn-download{
+        color: white;
+        background: none;
+        border: solid 1px white;
+        border-radius: 20px;
+        font-size: small;
+    }
+    
+    #nav-lnks{
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+        color: white;
+        font-size: small;
+    }
+    
+    .active{
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+    #toggle-btn{
+        color: white;
+        margin-top: 4%;
+        float: right;
+        text-align: center;
+        background: none;
+        padding-bottom: auto;
+        padding-top: auto;
+    }
+}
+
+@media (min-width:1200px){
+    
+    #foresightLogo{
+        width: 110px;
+        margin:0px;
+        padding: 0px;
+        display: block;
+        margin-right: auto;
+    }
+    #top-navigation{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    .btn-download{
+        color: white;
+        background: none;
+        border: solid 1px white;    
+        border-radius: 20px;
+        font-size: larger;
+    }
+    
+    #nav-lnks{
+        width: max-content;
+        color: white;
+        font-size: large;
+    }
+    
+    .active{
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+    #toggle-btn{
+        color: white;
+        background: none;
+        margin-top: 5px;
+        float: right;
+        text-align: center;
+        padding-bottom: auto;
+        padding-top: auto;
+    }
+}

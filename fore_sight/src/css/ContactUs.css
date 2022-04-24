@@ -1,0 +1,310 @@
+#contactContainer{
+    display: flex;
+    width: fit-content;
+    margin-top: 75px;
+    padding-bottom: 75px;
+}
+
+#contactLeftContainer{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#contactHead{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: left;
+}
+
+#contactSubHead{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 900;
+}
+
+.contactInput{
+    display: block;
+    border:none;
+    border-bottom:1.5px solid #000;
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#sendButton{
+    background-color: #243462;
+    color: #FFF;
+    padding: 8px 35px;
+    border: solid 1px #243462;
+    border-radius: 10px;
+    margin: 70px;
+}
+
+#contactRightContainer{
+    display: block;
+    width: 30%;
+    float: right;
+    margin-left: 10%;
+}
+
+#smallBox{
+    width: 40px;
+    height:40px;
+    background-color: #243462;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -25px;
+}
+
+#contactDetailsContainer{
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-left: 15px;
+    border-radius: 0px 0px 0px 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#cHead{
+    color: #FFF;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#cDetail{
+    color: white;
+    text-align: left;
+    width: 100%;
+    font-size: larger;
+    margin: 20px 0px;
+}
+
+#dIcon{
+    color: white;
+    margin: 0px 30px;
+}
+
+@media (min-width : 768px) and (max-width : 1020px) {
+    #contactHead{
+        font-size: 28px;
+    }
+
+    #contactSubHead{
+        font-size: 14px;
+    }
+
+    #contactInput{
+        margin-top: 15px;
+    }
+
+    #sendButton{
+        margin: 50px;
+    }
+
+    #contactRightContainer{
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    #smallBox{
+        width: 30px;
+        height:30px;
+        background-color: #243462;
+        border-radius: 3px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -20px;
+        
+    }
+    
+    #contactDetailsContainer{
+        background-color: black;
+        padding-left: 25px;
+        padding-right: 10px;
+        margin-left: 10px;
+        border-radius: 0px 0px 0px 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    #cHead{
+        color: #FFF;
+        font-size: 28px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #cDetail{
+        color: white;
+        text-align: left;
+        width: 100%;
+        font-size: small;
+        margin: 20px 0px;
+    }
+    
+    #dIcon{
+        color: white;
+        margin: 0px 20px;
+    }
+}
+
+@media (min-width:480px) and (max-width : 768px) {
+   #contactContainer{
+       display: block;
+   }
+
+   #contactLeftContainer{
+       width: 70%;
+   }
+
+   #contactHead{
+    font-size: 28px;
+    }
+
+    #contactSubHead{
+        font-size: 14px;
+    }
+
+    #contactInput{
+        margin-top: 15px;
+    }
+
+    #sendButton{
+        margin: 50px;
+    }
+
+    #contactRightContainer{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #smallBox{
+        width: 30px;
+        height:30px;
+        background-color: #243462;
+        border-radius: 3px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -20px;
+        
+    }
+
+    #contactDetailsContainer{
+        background-color: black;
+        padding-left: 25px;
+        padding-right: 10px;
+        margin-left: 10px;
+        border-radius: 0px 0px 15px 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #cHead{
+        color: #FFF;
+        font-size: 28px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    #cDetail{
+        color: white;
+        text-align: justify;
+        width: 100%;
+        font-size: small;
+        margin: 20px 0px;
+    }
+
+    #dIcon{
+        color: white;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width:480px) {
+    #contactContainer{
+        display: block;
+        margin-top: 40px;
+    }
+ 
+    #contactLeftContainer{
+        width: 70%;
+    }
+ 
+    #contactHead{
+     font-size: 25px;
+     }
+ 
+     #contactSubHead{
+         font-size: 12px;
+     }
+ 
+     #contactInput{
+         margin-top: 10px;
+         font-size: smaller;
+     }
+ 
+     #sendButton{
+         margin: 50px;
+     }
+ 
+     #contactRightContainer{
+         display: block;
+         width: 100%;
+         justify-content: center;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ 
+     #smallBox{
+         width: 30px;
+         height:30px;
+         background-color: #243462;
+         border-radius: 3px;
+         position: relative;
+         z-index: 1;
+         margin-bottom: -20px;
+         
+     }
+ 
+     #contactDetailsContainer{
+         background-color: black;
+         padding-left: 25px;
+         padding-right: 10px;
+         margin-left: 10px;
+         border-radius: 0px 0px 15px 15px;
+         padding-bottom: 20px;
+         padding-top: 20px;
+     }
+ 
+     #cHead{
+         color: #FFF;
+         font-size: 25px;
+         text-align: center;
+         padding-left: 0px;
+         padding-right: 10px;
+     }
+ 
+     #cDetail{
+         color: white;
+         text-align: justify;
+         width: 100%;
+         font-size: smaller;
+         margin: 20px 0px;
+     }
+ 
+     #dIcon{
+         color: white;
+         margin: 0px 20px;
+     }
+}

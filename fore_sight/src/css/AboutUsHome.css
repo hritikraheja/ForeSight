@@ -1,0 +1,68 @@
+#aboutUsContainer{
+    padding: 50px 0px 100px;
+}
+
+#aboutUsHead{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+#aboutUsSubHead{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#aboutUsQuote{
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+@media (max-width : 480px) {
+    #aboutUsHead{
+        font-size: 24px;
+    }
+    
+    #aboutUsSubHead{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    
+    #aboutUsQuote{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width : 480px) and (max-width : 789px) {
+    #aboutUsHead{
+        font-size: 26px;
+    }
+    
+    #aboutUsSubHead{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    #aboutUsQuote{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width : 1200px) {
+    #aboutUsHead{
+        font-size: 35px;
+    }
+    
+    #aboutUsSubHead{
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    
+    #aboutUsQuote{
+        font-size: 20px;
+        margin-top: 35px;
+    }
+}

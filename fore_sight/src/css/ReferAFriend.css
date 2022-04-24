@@ -1,0 +1,112 @@
+.referAFriendContainer{
+    width: 100%;
+}
+.rDiv{
+    padding: 30px 20px;
+    display: inline-flex;
+    height: fit-content;
+    justify-content: center;
+}
+
+.rText{
+    width: 50%;
+    display: block;
+    height: min-content;
+    padding: auto;
+}
+
+.rTitle{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-align: left;
+}
+
+.rDesc{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.rImgDiv{
+    display: block;
+    padding: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+.rImg{
+    width: auto;
+    height: auto;
+    padding: 8px;
+}
+
+@media (max-width : 480px) {
+    .rDiv{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rText{
+        width: 100%;
+    }
+
+    .rTitle{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .rDesc{
+        margin-top: 10px;
+        font-size: 10px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rImgDiv{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rImg{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width : 768px) {
+    .rTitle{
+        font-size: 26px;
+    }
+
+    .rDesc{
+        font-size: 14px;
+    }
+
+    .rImg{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (min-width:1200px) {
+    .rTitle{
+        font-size: 52px;
+    }
+
+    .rDesc{
+        font-size: 24px;
+    }
+
+    .rImg{
+        width: auto;
+        height: auto;
+        padding: 15px;
+    }
+}

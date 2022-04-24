@@ -1,0 +1,80 @@
+.tutorial{
+    width: 80%;
+    padding: auto;
+    display: inline-flex;
+    justify-content: center;
+    height: max-content;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.tutorialText{
+    width: 40%;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: left;
+    display: block;
+    margin: auto;
+    padding-left: 8%;
+}
+
+.videoTutorial{
+    width: 45%;
+    height: auto;
+    aspect-ratio: 1.75;
+}
+
+@media (max-width : 575px) {
+    .tutorial{
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .tutorialText{
+        width: 80%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .videoTutorial{
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width : 576px) and (max-width: 768px) {
+    .tutorialText{
+        font-size: 21px;
+    }
+
+    .videoTutorial{
+        width: 50%;
+    }
+}
+
+@media (min-width : 769px) and (max-width: 940px) {
+    .tutorialText{
+        font-size: 23px;
+    }
+
+    .videoTutorial{
+        width: 50%;
+    }
+}
+
+@media (min-width : 1020px) and (max-width: 1199px) {
+    .tutorialText{
+        font-size: 25px;
+    }
+
+    .videoTutorial{
+        width: 50%;
+    }
+}
+
+@media (min-width : 1200px) {
+    .videoTutorial{
+        width: 50%;
+    }
+}
