@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ForeSight/static/css/main.84e60c7c.css",
-    "main.js": "/ForeSight/static/js/main.2ef350e1.js",
+    "main.css": "/ForeSight/static/css/main.c20618fc.css",
+    "main.js": "/ForeSight/static/js/main.ad0cf8f2.js",
     "static/js/787.4b5b25ee.chunk.js": "/ForeSight/static/js/787.4b5b25ee.chunk.js",
     "static/media/tradingTopicsBackground.svg": "/ForeSight/static/media/tradingTopicsBackground.0177b7ef89e5ca4381eb.svg",
     "static/media/ss1.svg": "/ForeSight/static/media/ss1.26ab2b0140091411a7a054f7156e2be5.svg",
@@ -40,12 +40,12 @@
     "static/media/ratingsIcon.svg": "/ForeSight/static/media/ratingsIcon.067cbf7e43890214022d1e4a2ddd001c.svg",
     "static/media/winAmount.svg": "/ForeSight/static/media/winAmount.cbd9d7a7ac723853ccac0774093b6c68.svg",
     "static/media/downloads.svg": "/ForeSight/static/media/downloads.7fdc8945c8a1c8ccac9ef3cfd6b73f7b.svg",
-    "main.84e60c7c.css.map": "/ForeSight/static/css/main.84e60c7c.css.map",
-    "main.2ef350e1.js.map": "/ForeSight/static/js/main.2ef350e1.js.map",
+    "main.c20618fc.css.map": "/ForeSight/static/css/main.c20618fc.css.map",
+    "main.ad0cf8f2.js.map": "/ForeSight/static/js/main.ad0cf8f2.js.map",
     "787.4b5b25ee.chunk.js.map": "/ForeSight/static/js/787.4b5b25ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84e60c7c.css",
-    "static/js/main.2ef350e1.js"
+    "static/css/main.c20618fc.css",
+    "static/js/main.ad0cf8f2.js"
   ]
 }
