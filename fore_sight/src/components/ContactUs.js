@@ -4,9 +4,6 @@ import emailjs from 'emailjs-com'
 
 class ContactUs extends Component{
     render(){
-        const sendEmail = (e)=>{
-            emailjs.send()
-        }
         return (
             <div className="container-fluid" id="contactContainer">
                     <div id="contactLeftContainer">
@@ -23,7 +20,7 @@ class ContactUs extends Component{
                             <p id="cHead">Info</p>
                             <p id="cDetail"><i id="dIcon" className="glyphicon glyphicon-envelope"></i>rahula@foresight.mobi</p>
                             <p id="cDetail"><i id="dIcon" className="glyphicon glyphicon-time"></i>9:00 - 18:00 (Monday to Friday)</p>
-                            <p id="cDetail"><i id="dIcon" className="glyphicon glyphicon-map-marker"></i>H.No - 325/K, G-Block Kumari, Rameshwarpur, India 631001</p>
+                            <p id="cAddress"><i id="dIcon" className="glyphicon glyphicon-map-marker"></i>H.No - 325/K, G-Block Kumari, Rameshwarpur, India 631001</p>
                         </div>
                     </div>
                 </div>

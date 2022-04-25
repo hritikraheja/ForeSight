@@ -7,7 +7,7 @@ import analyseLogo from '../images/analyseLogo.svg'
 class Monetize extends Component{
     render(){
         return (
-            <div>
+            <div className="mcontainer">
                 <p id="m-head"><b>Monetize Your Opinions</b></p>
 
                 <div id="m-body">

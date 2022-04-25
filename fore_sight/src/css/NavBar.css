@@ -1,5 +1,9 @@
+.gs{
+    margin-bottom: 10%;
+}
+
 #foresightLogo{
-    width: 100px;
+    width: 60px;
     height: auto;
     margin-right: 0px;
     padding: 10px;
@@ -18,7 +22,7 @@
     margin: 0px;
     font-weight: 900;
     line-height: auto;
-    line-height: 100px;
+    line-height: 60px;
     font-size: 25px;
     
 }
@@ -31,7 +35,7 @@
     background: none;
     border: solid 1px white;
     border-radius: 20px;
-    font-size: large;
+    font-size: medium;
 }
 
 #nav-lnks{
@@ -65,7 +69,7 @@
 @media (min-width:768px) and (max-width:982px) {
     
     #foresightLogo{
-        width: 100px;
+        width: 60px;
     }
 
     #top-navigation{
@@ -111,7 +115,7 @@
 @media (max-width:769px){
 
     #foresightLogo{
-        width: 80px;
+        width: 60px;
         margin:0px;
         padding: 0px;
         display: block;
@@ -126,7 +130,7 @@
     
     #foresightLogoTitle{
         font-size: 20px;
-        line-height: 80px;
+        line-height: 60px;
     }
     .btn-download{
         color: white;
@@ -162,7 +166,7 @@
 @media (min-width:1200px){
     
     #foresightLogo{
-        width: 110px;
+        width: 60px;
         margin:0px;
         padding: 0px;
         display: block;
@@ -180,13 +184,13 @@
         background: none;
         border: solid 1px white;    
         border-radius: 20px;
-        font-size: larger;
+        font-size: medium;
     }
     
     #nav-lnks{
         width: max-content;
         color: white;
-        font-size: large;
+        font-size: medium;
     }
     
     .active{

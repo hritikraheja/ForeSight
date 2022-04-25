@@ -8,7 +8,7 @@ class ReferAFriend extends Component{
             <div className="referAFriendContainer">
                 <div className="rDiv">
                     <div className="rText">
-                        <p className="rTitle">Refer a friend<br/>and Get ₹15<br/></p>
+                        <p className="rTitle">Refer a friend and Get ₹15<br/></p>
                         <p className="rDesc">Foresight not only rewards you for predictions but, also for your referrals.<br/><br/>
                         Invite your friends and family on Foresight App, and start winning together!</p>
                     </div>

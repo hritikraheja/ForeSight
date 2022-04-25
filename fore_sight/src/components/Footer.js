@@ -20,8 +20,8 @@ class Footer extends Component{
                     </div>
                     <p id="footer-download-text">Download the Foresight app on Google Playstore.</p>
                     <img id ='footer-logo-2' src={playStoreImage}></img>
-                    <span className="text-light">Payment Partner-</span>
-                    <img id = 'footer-logo-2' src={hyptoLogo}></img>
+                    <span className="text-light" id="fSubTitle">Payment Partner-</span>
+                    <img id = 'footer-logo-3' src={hyptoLogo}></img>
                 </div>
                 
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footer-section">
@@ -29,22 +29,22 @@ class Footer extends Component{
 
                     <ul class="list-unstyled lg">
                     <li>
-                        <a href="#!" class="text-light">Home</a>
+                        <a href="#" class="text-light" onClick={this.props.fun0} id="footer-lnk">Home</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">How To Play</a>
+                        <a href="#" class="text-light" onClick={this.props.fun1} id="footer-lnk">How To Play</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">Blogs</a>
+                        <a href="#" class="text-light" onClick={this.props.fun2} id="footer-lnk">Blogs</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">FAQs</a>
+                        <a href="#" class="text-light" onClick={this.props.fun0} id="footer-lnk">FAQs</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">About Us</a>
+                        <a href="#" class="text-light" onClick={this.props.fun3} id="footer-lnk">About Us</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">Contact Us</a>
+                        <a href="#" class="text-light" onClick={this.props.fun4} id="footer-lnk">Contact Us</a>
                     </li>
                     </ul>
                 </div>
@@ -54,29 +54,29 @@ class Footer extends Component{
 
                     <ul class="list-unstyled lg">
                     <li>
-                        <a href="#!" class="text-light">Facebook</a>
+                        <a href="https://www.facebook.com/foresightIN" target='_blank' class="text-light" id="footer-lnk">Facebook</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">Instagram</a>
+                        <a href="https://www.instagram.com/foresight_in/" target='_blank' class="text-light" id="footer-lnk">Instagram</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">Twitter</a>
+                        <a href="#!" class="text-light" target='_blank' id="footer-lnk">Twitter</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">Medium</a>
+                        <a href="https://medium.com/forecight" class="text-light" target='_blank' id="footer-lnk">Medium</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">Telegram</a>
+                        <a href="https://t.me/forecight" class="text-light" target='_blank' id="footer-lnk">Telegram</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light">Youtube</a>
+                        <a href="https://www.youtube.com/user/rajagharka" class="text-light" target='_blank' id="footer-lnk">Youtube</a>
                     </li>
                     </ul>
                 </div>
 
                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0" id="footer-content-4">
                     <h5 className="mb-3 text-light lead" id="footer-head"><b>Subscribe our Weekly Newsletter</b></h5>
-                    <form id="footer-form" class="navbar-form navbar-left p-0" action="/action_page.php" style={{'width':'90%'}}>
+                    <form id="footer-form" class="navbar-form navbar-left p-0">
                         <div class="input-group ml-0">
                             <input id="footer-input" autoComplete="off" type="text" class="form-control" placeholder="Your Email" style={{'height':'50px'}}/>
                             <div class="input-group-btn">
@@ -87,7 +87,7 @@ class Footer extends Component{
                         </div>
                     </form>
 
-                    <p className="text-light my-10">
+                    <p className="text-light my-10 mt-5">
                         <b>Address</b>-325/K<br/>G Block, Kumari<br/>Rameshpur 631001
                     </p>
 

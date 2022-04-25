@@ -17,6 +17,7 @@
 #teamMembersDiv{
     width: 100%;
     padding: 50px 5%;
+    margin-top: 5%;
 }
 
 #tmHead{
@@ -27,6 +28,7 @@
 #tmSubHead{
     font-size: 18px;
     font-weight: 900;
+    margin-bottom: 5%;
 }
 
 #tm{
@@ -54,11 +56,10 @@
 }
 
 #member:hover{
-    border-radius: 30%;
+    border-radius: 20%;
     -webkit-box-shadow: 0 0 10px 2px #AAA;
     -moz-box-shadow: 0 0 10px 2px #AAA;
     box-shadow: 0px 0px 10px 2px #AAA;
-    transition-duration: 1s;
 }
 
 #memberDetailsButton{
@@ -180,6 +181,9 @@
 
     #preview_close_button{
         font-size: small;
+    }
+    #missionImgs{
+        width: 75%;
     }
 }
 

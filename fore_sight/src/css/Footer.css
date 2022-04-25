@@ -1,3 +1,7 @@
+.container{
+  margin-bottom: 0px;
+}
+
 ul li{
     font-size: large;
     color:white;
@@ -25,7 +29,7 @@ ul li{
   }
   
   #footer-logo{
-    width: 30%;
+    width: 50px;
     height: auto;
   }
   
@@ -34,6 +38,10 @@ ul li{
     font-size: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  #footer-brand b{
+    line-height: 50px;
   }
   
   #footer-download-text{
@@ -48,8 +56,21 @@ ul li{
     height: auto;
     margin-bottom: 10px;
     display: block;
+    margin-top: 5%;
+  }
+
+  #footer-logo-3{
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-top: auto;
   }
   
+  #fSubTitle{
+    margin-top: 5%;
+  }
+
   #footer-section{
     padding-left: 60px;
   }
@@ -73,30 +94,54 @@ ul li{
       width: 100%;
     }
 
-    #footer{
-      width: 100%;
+    #footer-brand b{
+      line-height: 50px;
+    }
+
+    #footer-download-text{
+      width: 75%;
     }
 
     #footer-logo-2{
+      width: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #footer-logo-3{
+      width: 30%;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
   
+    #footer-lnk{
+      font-size: smaller;
+      margin: 0px;
+    }
+
     #footer-head{
-      font-size: 24px;
+      padding-left: 12.5%;
+      padding-right: 12.5%;
+      font-size: 20px;
+      margin: 10% 0px 0px;
     }
   
     #footer-section{
       padding-left: 0px;
     }
-  
-    #footer-lnk{
-      font-size: x-small;
+
+    #footer-form{
+      width: 60%;
+    }
+
+    ul li{
+      margin: 0px;
     }
   }
 
-  @media (min-width : 481px)and (max-width : 992px) {
+  @media (min-width : 480px)and (max-width : 992px) {
     .row{
       width: 100%;
       margin-right: 0px;
@@ -113,6 +158,14 @@ ul li{
       margin-left: auto;
       margin-right: auto;
     }
+
+    #footer-logo-3{
+      width: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
   
     #footer-content-4{
       display: block;

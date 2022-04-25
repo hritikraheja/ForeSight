@@ -8,12 +8,12 @@ import downloadsIcon from '../images/downloads.svg'
 class PlayStoreStats extends Component{
     render(){
         return(
-            <div className="container">
+            <div className="container" id="sContainer">
                 <div className="stats">
                         <div className="stat">
                             <img className="statLogo" src={activeUsersIcon}></img>
                             <div className="statText">
-                                <p className="statTitle">900</p>
+                                <p className="statTitle">1600</p>
                                 <p className="statDescription">ACTIVE USERS</p>
                             </div>
                     </div> 
@@ -34,7 +34,7 @@ class PlayStoreStats extends Component{
                     <div className="stat">
                             <img className="statLogo" src={downloadsIcon}></img>
                             <div className="statText">
-                                <p className="statTitle">1500</p>
+                                <p className="statTitle">5000</p>
                                 <p className="statDescription">DOWNLOADS</p>
                             </div>
                     </div>  

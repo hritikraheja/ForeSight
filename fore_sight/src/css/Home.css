@@ -3,7 +3,7 @@
 }
 
 #head{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
     color: white;
     padding-top: 50px;
@@ -11,7 +11,7 @@
 }
 
 #headB{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
     color: white;
     padding-top: 50px;
@@ -51,26 +51,30 @@
     }
     
     #head{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bolder;
         color: white;
         padding-top: 0px;
     }
 
     #headB{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bolder;
         color: #4f35d4;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     #ss1{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     
     #column{
         padding-top: 0%;
+    }
+    
+    #hContainer{
+        margin-bottom: 10%;
     }
 }

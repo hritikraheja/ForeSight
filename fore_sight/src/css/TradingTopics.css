@@ -4,6 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 50px;
+    margin-bottom: 10%;
+    padding: 2% 0px;
 }
 
 .tHead{
@@ -15,7 +17,7 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     margin-top: 40px;
     margin-bottom: 80px;
 }
@@ -26,7 +28,7 @@
 }
 
 .tImg{
-    height: 100px;
+    height: 70px;
     width: auto;
     display: block;
     margin-left: auto;

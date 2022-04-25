@@ -8,7 +8,7 @@ class RewardsAndTutorial extends Component{
         return(
             <div>
                 <div className="tutorial">
-                    <p className="tutorialText">Check out our<br/>tutorial video on<br/>YouTube to learn<br/>how to play.</p>
+                    <p className="tutorialText">Check out our tutorial video on YouTube to learn how to play.</p>
                     <iframe className="videoTutorial"
                     src="https://www.youtube.com/embed/1dVEfs6Exkc"
                     frameborder="0"

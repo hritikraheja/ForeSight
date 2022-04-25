@@ -24,7 +24,7 @@ class PastEvents extends Component{
                         <p className="cryptoDesc">Foresight has something unique for cryto enthusiasts! 
                         If you have a knack for Crypto Currencies like Bitcoin, you can easily place your bids on cryto 11.<br/><br/>
                         Predict the fluctuations in the digital currency and win instant rewards! It will help you ace the 
-                        leaderboard and emerge as the ultimate winner in case of a tie-breaaker.</p>
+                        leaderboard and emerge as the ultimate winner in case of a tie-breaker.</p>
                     </div>
                     <div className="crytpoImgDiv">
                         <img className="cryptoImg" src={crypto11}></img>
