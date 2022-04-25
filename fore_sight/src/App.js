@@ -69,6 +69,10 @@ class App extends Component {
                 switchToDarkNav();
                 content = blogsContent;
                 this.setState({navIndex : 2, homeBg : <BlogsHome/>, bgImg : lightBackgroundUrl, content : blogsContent});  
+                var current = document.getElementsByClassName('active');
+                current[0].className = current[0].className.replace(" active", "");
+                document.getElementsByClassName('nav-item')[2].className += " active";
+                collapseNavBar();
             } 
         }
 
@@ -76,6 +80,10 @@ class App extends Component {
             if(this.state.navIndex != 0){
                 switchToLightNav();
                 this.setState({navIndex : 0, homeBg: <Home/>, bgImg : darkBackgroundUrl, content : homeContent});
+                var current = document.getElementsByClassName('active');
+                current[0].className = current[0].className.replace(" active", "");
+                document.getElementsByClassName('nav-item')[0].className += " active";
+                collapseNavBar();
             }
         }
 
@@ -83,6 +91,10 @@ class App extends Component {
             if(this.state.navIndex != 4){
                 switchToDarkNav();
                 this.setState({navIndex:4, homeBg: <ContactUs/>, bgImg:lightBackgroundUrl, content : <Footer/>})
+                var current = document.getElementsByClassName('active');
+                current[0].className = current[0].className.replace(" active", "");
+                document.getElementsByClassName('nav-item')[4].className += " active";
+                collapseNavBar();
             }
         }
 
@@ -90,6 +102,10 @@ class App extends Component {
             if(this.state.navIndex != 3){
                 switchToDarkNav();
                 this.setState({navIndex:3, homeBg: <AboutUsHome/>, bgImg:lightBackgroundUrl, content : aboutContent})
+                var current = document.getElementsByClassName('active');
+                current[0].className = current[0].className.replace(" active", "");
+                document.getElementsByClassName('nav-item')[3].className += " active";
+                collapseNavBar();
             }
         }
 
@@ -97,16 +113,18 @@ class App extends Component {
             if(this.state.navIndex != 0){
                 switchToLightNav();
                 this.setState({navIndex : 0, homeBg: <Home/>, bgImg : darkBackgroundUrl, content : homeContent});
+                var current = document.getElementsByClassName('active');
+                current[0].className = current[0].className.replace(" active", "");
+                document.getElementsByClassName('nav-item')[0].className += " active";
                 window.scrollTo(0, 
                     findPosition(document.getElementById("gs")))
                 ;
-
+                collapseNavBar();
             } else {
                 window.scrollTo(0, 
                     findPosition(document.getElementById("gs")));
             }
         }
-
         function findPosition(obj) {
             var currenttop = 0;
             if (obj.offsetParent) {
@@ -116,6 +134,7 @@ class App extends Component {
                 return [currenttop];
             }
         }
+
         function switchToDarkNav() {
             var tabs = document.getElementsByClassName("nav-link");
             for( let i = 0; i < tabs.length; i++){
@@ -140,6 +159,16 @@ class App extends Component {
             document.getElementById('foresightLogoTitle').style.color = "#FFF";
             document.getElementById('toggle-btn').style.color = "white";
             document.getElementById('toggle-btn').style.border = "solid 1px white";
+        }
+
+        function collapseNavBar(){
+            var btn = document.getElementById('toggle-btn');
+            var b = document.getElementById('navbarNav');
+            b.ariaExpanded = false;
+            btn.ariaExpanded = false;
+            btn.className += " collapsed";
+            b.className = b.className.replace(" in", "");
+            // console.log(btn.classList);
         }
 
         const sty = {
