@@ -217,9 +217,9 @@ class App extends Component {
                         </div>
                         
                     </nav>
-
                 {this.state.homeBg}
             </div>
+            <a href="https://play.google.com/store/apps/details?id=com.foresight.club" target="_blank"><button id="download-btn-mob">Download Now</button></a>
             {this.state.content}
             <footer class="text-center text-lg-start bg-dark">
  

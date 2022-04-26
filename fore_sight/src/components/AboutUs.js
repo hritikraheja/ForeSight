@@ -16,7 +16,7 @@ class AboutUs extends Component{
             document.getElementById('preview').style.display = 'none';
         }
 
-        const backgroundImageUrl = `url(${process.env.PUBLIC_URL+ "/tradingTopicsBackground.svg"})`;
+        const backgroundImageUrl = `url(${process.env.PUBLIC_URL+ "/tradingTopicsBackground.png"})`;
         const missionStyle = {
             backgroundImage: backgroundImageUrl,
             backgroundPosition: 'center',

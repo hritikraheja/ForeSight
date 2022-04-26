@@ -125,4 +125,12 @@
     #stepMob{
         margin-top: 5%;
     }
+
+    #stepDescMob{
+        width: 90%;
+    }
+
+    #stepSSMob{
+        width: 60%;
+    }
 }

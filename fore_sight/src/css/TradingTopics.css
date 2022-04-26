@@ -1,5 +1,5 @@
 .tContainer{
-    background-image: url('../images/tradingTopicsBackground.svg');
+    background-image: url('../images/tradingTopicsBackground.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +82,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     
+    .tTopic{
+        margin: 20px 10px 0px;
+    }
     .tHead{
         font-size: 20px;
     }
