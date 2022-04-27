@@ -53,6 +53,17 @@
     text-align: left;
 }
 
+#download-btn-mob{
+    color: white;
+    background-color: #4f35d4;
+    border-radius: 40px;
+    font-size: medium;
+    padding: 10px 20px;
+    border: none;
+    margin: 30px auto 50px;
+    display: none;
+  }
+
 @media (max-width : 1000px) {
     .stats{
         display: grid;
@@ -207,5 +218,11 @@
         margin-bottom: 0px;
         margin-top: 2px;
         text-align: left;
+    }
+
+    #download-btn-mob{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

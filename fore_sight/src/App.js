@@ -6,7 +6,6 @@ import './css/Footer.css'
 import Home from './components/Home.js';
 import PlayStoreStats from './components/PlayStoreStats.js'
 import Monetize from './components/Monetize.js'
-import Footer from './components/Footer.js'
 import TradingTopics from './components/TradingTopics.js';
 import PastEvents from './components/PastEvents.js';
 import ReferAFriend from './components/ReferAFriend.js';
@@ -71,8 +70,8 @@ class App extends Component {
                 var current = document.getElementsByClassName('active');
                 current[0].className = current[0].className.replace(" active", "");
                 document.getElementsByClassName('nav-item')[2].className += " active";
-                collapseNavBar();
             } 
+            collapseNavBar();
         }
 
         const homeClicked = async()=>{
@@ -82,8 +81,8 @@ class App extends Component {
                 var current = document.getElementsByClassName('active');
                 current[0].className = current[0].className.replace(" active", "");
                 document.getElementsByClassName('nav-item')[0].className += " active";
-                collapseNavBar();
             }
+            collapseNavBar();
         }
 
         const contactUsClicked = async()=>{
@@ -93,8 +92,8 @@ class App extends Component {
                 var current = document.getElementsByClassName('active');
                 current[0].className = current[0].className.replace(" active", "");
                 document.getElementsByClassName('nav-item')[4].className += " active";
-                collapseNavBar();
             }
+            collapseNavBar();
         }
 
         const aboutUsClicked = async() => {
@@ -104,8 +103,8 @@ class App extends Component {
                 var current = document.getElementsByClassName('active');
                 current[0].className = current[0].className.replace(" active", "");
                 document.getElementsByClassName('nav-item')[3].className += " active";
-                collapseNavBar();
             }
+            collapseNavBar();
         }
 
         const howToPlayClicked = () =>{
@@ -118,11 +117,11 @@ class App extends Component {
                 window.scrollTo(0, 
                     findPosition(document.getElementById("gs")))
                 ;
-                collapseNavBar();
             } else {
                 window.scrollTo(0, 
                     findPosition(document.getElementById("gs")));
             }
+            collapseNavBar();
         }
         function findPosition(obj) {
             var currenttop = 0;
@@ -219,7 +218,7 @@ class App extends Component {
                     </nav>
                 {this.state.homeBg}
             </div>
-            <a href="https://play.google.com/store/apps/details?id=com.foresight.club" target="_blank"><button id="download-btn-mob">Download Now</button></a>
+            
             {this.state.content}
             <footer class="text-center text-lg-start bg-dark">
  

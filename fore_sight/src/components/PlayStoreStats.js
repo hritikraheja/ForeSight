@@ -9,6 +9,7 @@ class PlayStoreStats extends Component{
     render(){
         return(
             <div className="container" id="sContainer">
+                <a href="https://play.google.com/store/apps/details?id=com.foresight.club" target="_blank"><button id="download-btn-mob">Download Now</button></a>
                 <div className="stats">
                         <div className="stat">
                             <img className="statLogo" src={activeUsersIcon}></img>

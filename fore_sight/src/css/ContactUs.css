@@ -88,7 +88,7 @@
 
 #cAddress{
     color: white;
-    text-align: justify;
+    text-align: left;
     width: auto;
     font-size: medium;
     margin: 20px 0px;
@@ -96,7 +96,7 @@
 
 #dIcon{
     color: white;
-    margin: 0px 30px;
+    margin: 0px 30px 0px 0px;
 }
 
 @media (min-width : 768px) and (max-width : 1020px) {
@@ -155,6 +155,10 @@
         width: 100%;
         font-size: small;
         margin: 20px 0px;
+    }
+
+    #cAddress{
+        font-size: small;
     }
     
     #dIcon{
@@ -233,6 +237,10 @@
         margin: 20px 0px;
     }
 
+    #cAddress{
+        font-size: small;
+    }
+
     #dIcon{
         color: white;
         margin: 0px 20px;
@@ -309,6 +317,10 @@
          width: 100%;
          font-size: smaller;
          margin: 20px 0px;
+     }
+
+     #cAddress{
+         font-size: smaller;
      }
  
      #dIcon{
