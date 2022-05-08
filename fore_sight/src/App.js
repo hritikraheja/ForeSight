@@ -133,7 +133,9 @@ class App extends Component {
         const faqClicked = () => {
             if(this.state.navIndex != 5){
                 switchToDarkNav();
-                this.setState({navIndex:5, homeBg: <FaqHome/>, bgImg:lightBackgroundUrl, content : faqContent})
+                this.setState({navIndex:5, homeBg: <FaqHome/>, bgImg:lightBackgroundUrl, content : faqContent});
+                var current = document.getElementsByClassName('active');
+                current[0].className = current[0].className.replace(" active", "");
             }
         }
 
