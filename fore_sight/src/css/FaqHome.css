@@ -1,0 +1,146 @@
+#faqsHome{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#faqsHead{
+    width: 50%;
+    font-size: 45px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faqsSubHead{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 20px;
+}
+
+.faqInputGroup{
+    margin-top: 70px;
+    width: 50%;
+    display: inline-flex;
+    border-radius: 10px;
+    justify-content: center;
+    -webkit-box-shadow: 0 0 10px 2px #AAA;
+    -moz-box-shadow: 0 0 10px 2px #AAA;
+    box-shadow: 0px 0px 10px 2px #AAA;
+}
+
+#faqSearchButton{
+    background-color: orange;
+    color: white;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#faqSearchInput{
+    border: none;
+    height: 100%;
+}
+
+#faqSearchInput:hover{
+    border: none;
+}
+
+.faqSearchIcon{
+   margin: 10px;
+   padding: auto;
+}
+
+@media (max-width : 480px) {
+    #faqsHead{
+        font-size: 22px;
+    }
+    
+    #faqsSubHead{
+        font-size: 14px;
+    }
+
+    .faqInputGroup{
+        width: 70%;
+        height: fit-content;
+    }
+
+    #faqSearchButton{
+        font-size: 12px;
+    }
+
+    #faqSearchInput{
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+
+@media (min-width : 480px) and (max-width : 768px) {
+    #faqsHead{
+        font-size: 32px;
+    }
+    
+    #faqsSubHead{
+        font-size: 16px;
+    }
+
+    .faqInputGroup{
+        width: 65%;
+        height: fit-content;
+    }
+
+    #faqSearchButton{
+        font-size: 14px;
+    }
+
+    #faqSearchInput{
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1020px) {
+    #faqsHead{
+        font-size: 34px;
+    }
+    
+    #faqsSubHead{
+        font-size: 18px;
+    }
+
+    .faqInputGroup{
+        width: 60%;
+        height: fit-content;
+    }
+
+    #faqSearchButton{
+        font-size: 16px;
+    }
+
+    #faqSearchInput{
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+}
+
+@media (min-width : 1250px) {
+    #faqsHead{
+        font-size: 47px;
+    }
+    
+    #faqsSubHead{
+        font-size: 20px;
+    }
+
+    .faqInputGroup{
+        width: 45%;
+        height: fit-content;
+    }
+
+    #faqSearchButton{
+        font-size: 18px;
+    }
+
+    #faqSearchInput{
+        font-size: 18px;
+        padding: 6px 12px;
+    }
+}

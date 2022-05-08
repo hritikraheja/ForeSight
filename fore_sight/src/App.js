@@ -18,6 +18,8 @@ import AboutUsHome from './components/AboutUsHome';
 import AboutUs from './components/AboutUs';
 import playStoreImage from "./images/getItOnPlayStore.svg"
 import hyptoLogo from "./images/hypto.svg"
+import FaqHome from './components/FaqHome';
+import Faqs from './components/Faqs';
 
 class App extends Component {
     
@@ -57,6 +59,10 @@ class App extends Component {
 
         const aboutContent = <div>
             <AboutUs></AboutUs>
+        </div>
+
+        const faqContent = <div>
+            <Faqs></Faqs>
         </div>
 
         let darkBackgroundUrl = `url(${process.env.PUBLIC_URL+ "/bg.png"})`;
@@ -123,6 +129,14 @@ class App extends Component {
             }
             collapseNavBar();
         }
+
+        const faqClicked = () => {
+            if(this.state.navIndex != 5){
+                switchToDarkNav();
+                this.setState({navIndex:5, homeBg: <FaqHome/>, bgImg:lightBackgroundUrl, content : faqContent})
+            }
+        }
+
         function findPosition(obj) {
             var currenttop = 0;
             if (obj.offsetParent) {
@@ -251,7 +265,7 @@ class App extends Component {
                         <a href="#" class="text-light" onClick={blogsClicked} id="footer-lnk">Blogs</a>
                     </li>
                     <li>
-                        <a href="#" class="text-light" onClick={this.props.fun0} id="footer-lnk">FAQs</a>
+                        <a href="#" class="text-light" onClick={faqClicked} id="footer-lnk">FAQs</a>
                     </li>
                     <li>
                         <a href="#" class="text-light" onClick={aboutUsClicked} id="footer-lnk">About Us</a>
