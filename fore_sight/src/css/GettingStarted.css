@@ -106,7 +106,7 @@
 @media (max-width : 480px) {
 
     .gs{
-        margin-bottom: 15%;
+        margin-bottom: 100p;
     }
     .gsHead{
         font-size: 20px;
@@ -119,7 +119,7 @@
 
     #stepsMob{
         display: block;
-        margin-top: 10%;
+        margin-top: 70px;
     }
 
     #stepMob{

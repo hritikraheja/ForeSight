@@ -31,7 +31,7 @@
 #faqQuestionTxt{
     width: 100%;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 900;
     margin-bottom: 0px;
 }
@@ -144,6 +144,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    line-height: 20px;
+    font-size: 14px;
 }
 
 .faqAnswer ul li{
@@ -169,6 +171,12 @@
     }
 
     .faqAnswer{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .faqAnswer ul li{
+        color: #000;
         font-size: 10px;
     }
 }
@@ -205,7 +213,7 @@
     }
 
     #faqQuestionTxt{
-        font-size: 20px;
+        font-size: 14px;
     }
 
     #faqIcon{
@@ -213,6 +221,6 @@
     }
 
     .faqAnswer{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
